@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{213B05BE-16A9-4AA4-A49C-53125B514803}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>Grafika</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BarChart, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\BarChart.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BinaryTree.cs" />
+    <Compile Include="FastBitmap.cs" />
+    <Compile Include="Lab6.cs" />
+    <Compile Include="Node.cs" />
+    <Compile Include="PixTabForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PixTabForm.Designer.cs">
+      <DependentUpon>PixTabForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TwoImageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TwoImageForm.Designer.cs">
+      <DependentUpon>TwoImageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AboutProgram.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutProgram.Designer.cs">
+      <DependentUpon>AboutProgram.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Benchmark.cs" />
+    <Compile Include="Binaryzacja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Binaryzacja.Designer.cs">
+      <DependentUpon>Binaryzacja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChildForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForm.Designer.cs">
+      <DependentUpon>ChildForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kontrast.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kontrast.Designer.cs">
+      <DependentUpon>Kontrast.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Jasnosc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jasnosc.Designer.cs">
+      <DependentUpon>Jasnosc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HistForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HistForm.Designer.cs">
+      <DependentUpon>HistForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Histogram.cs" />
+    <Compile Include="HistogramEqualization.cs" />
+    <Compile Include="Krawedzie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Krawedzie.Designer.cs">
+      <DependentUpon>Krawedzie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maska.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maska.Designer.cs">
+      <DependentUpon>Maska.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyBitmap.cs" />
+    <Compile Include="MyFBitmap.cs" />
+    <Compile Include="Operacje.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Prompt.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Pustak.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pustak.Designer.cs">
+      <DependentUpon>Pustak.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RichHistForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RichHistForm.Designer.cs">
+      <DependentUpon>RichHistForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rozciaganie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rozciaganie.Designer.cs">
+      <DependentUpon>Rozciaganie.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="PixTabForm.resx">
+      <DependentUpon>PixTabForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TwoImageForm.resx">
+      <DependentUpon>TwoImageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutProgram.resx">
+      <DependentUpon>AboutProgram.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Binaryzacja.resx">
+      <DependentUpon>Binaryzacja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildForm.resx">
+      <DependentUpon>ChildForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistForm.resx">
+      <DependentUpon>HistForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jasnosc.resx">
+      <DependentUpon>Jasnosc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kontrast.resx">
+      <DependentUpon>Kontrast.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Krawedzie.resx">
+      <DependentUpon>Krawedzie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maska.resx">
+      <DependentUpon>Maska.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Pustak.resx">
+      <DependentUpon>Pustak.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RichHistForm.resx">
+      <DependentUpon>RichHistForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rozciaganie.resx">
+      <DependentUpon>Rozciaganie.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
